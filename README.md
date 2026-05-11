@@ -1,2 +1,2 @@
 # lzh-um-AI-project
-master project
+Official implementation of the master's project: "Small Object Detection and Multi-Object Tracking in UAV Scenarios Based on YOLOv8s-DBRA".This project addresses the challenge of small-object detection and multi-object tracking in UAV aerial surveillance. We integrate a Dynamic Bi-Level Routing Attention (D-BRA) module into the lightweight YOLOv8s detector to enhance feature representation for tiny aerial targets, and couple it with ByteTrack and BoT-SORT for robust temporal association. The system achieves strong recall-oriented detection performance and stable tracking identity consistency on the UAV-Benchmark-M dataset.
