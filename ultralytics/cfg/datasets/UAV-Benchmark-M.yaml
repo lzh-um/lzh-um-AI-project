@@ -1,0 +1,15 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
+# UAV-benchmark-M vehicle detection dataset
+# Conversion utility: ultralytics/data/scripts/convert_uav_benchmark_m.py
+# Example: yolo train model=yolo11s.pt data=UAV-Benchmark-M.yaml
+
+path: D:\毕业设计\代码本地\UAV-benchmark-M-YOLO  # dataset root produced by the converter
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: car
+  1: truck
+  2: bus

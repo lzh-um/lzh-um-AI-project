@@ -1,0 +1,78 @@
+Evaluating 14 sequences: ['M0801', 'M0403', 'M1303', 'M0205', 'M0802', 'M0203', 'M1009', 'M1001', 'M0606', 'M1301', 'M0602', 'M1004', 'M1302', 'M1401']
+============================================================
+
+Processing M0801...
+  GT: 3967 annotations, 24 tracks
+  Pred: 4610 detections, 51 tracks
+
+Processing M0403...
+  GT: 30304 annotations, 98 tracks
+  Pred: 31882 detections, 151 tracks
+
+Processing M1303...
+  GT: 10149 annotations, 56 tracks
+  Pred: 9796 detections, 91 tracks
+
+Processing M0205...
+  GT: 5219 annotations, 27 tracks
+  Pred: 6180 detections, 87 tracks
+
+Processing M0802...
+  GT: 30535 annotations, 67 tracks
+  Pred: 26260 detections, 150 tracks
+
+Processing M0203...
+  GT: 5033 annotations, 56 tracks
+  Pred: 6638 detections, 136 tracks
+
+Processing M1009...
+  GT: 10201 annotations, 29 tracks
+  Pred: 5893 detections, 55 tracks
+
+Processing M1001...
+  GT: 19501 annotations, 90 tracks
+  Pred: 27394 detections, 268 tracks
+
+Processing M0606...
+  GT: 17505 annotations, 95 tracks
+  Pred: 20100 detections, 316 tracks
+
+Processing M1301...
+  GT: 37676 annotations, 115 tracks
+  Pred: 21214 detections, 189 tracks
+
+Processing M0602...
+  GT: 18142 annotations, 77 tracks
+  Pred: 9990 detections, 109 tracks
+
+Processing M1004...
+  GT: 4887 annotations, 40 tracks
+  Pred: 2044 detections, 47 tracks
+
+Processing M1302...
+  GT: 20140 annotations, 50 tracks
+  Pred: 7212 detections, 129 tracks
+
+Processing M1401...
+  GT: 13286 annotations, 52 tracks
+  Pred: 9563 detections, 188 tracks
+
+============================================================
+MOT Evaluation Results
+============================================================
+         num_frames  MOTA  MOTP  IDF1  IDs    FM  Prcn  Rcll
+M0801           298 83.2% 0.128 92.2%    0     2 85.8% 99.7%
+M0403           514 79.7% 0.176 89.1%   14   108 87.9% 92.5%
+M1303           445 72.4% 0.183 84.5%    8   129 87.5% 84.5%
+M0205           646 66.7% 0.136 79.4%   26    29 78.4% 92.8%
+M0802          1101 58.3% 0.184 69.3%   49   291 84.0% 72.2%
+M0203          1000 54.2% 0.129 79.4%    4    20 70.6% 93.1%
+M1009           604 54.4% 0.237 64.0%   21   311 97.2% 56.2%
+M1001          1859 42.1% 0.214 75.1%    8    74 65.0% 91.3%
+M0606          1374 41.7% 0.240 70.0%   26   514 68.2% 78.3%
+M1301          1182 40.8% 0.223 55.6%   30   364 86.3% 48.6%
+M0602           480 30.6% 0.314 48.3%   35   448 78.0% 43.0%
+M1004           269 29.6% 0.247 48.0%    7    81 85.5% 35.8%
+M1302           719 24.3% 0.210 36.5%   67   428 84.3% 30.2%
+M1401          1050 18.0% 0.201 46.0%   52   224 62.7% 45.2%
+OVERALL       11541 48.3% 0.202 67.4%  347  3023 79.1% 65.9%
